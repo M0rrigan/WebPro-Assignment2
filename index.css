@@ -1,0 +1,35 @@
+* {
+    flex: content;
+    align-items: center;
+}
+
+.form {
+    background-color: rgb(165, 243, 217);
+    margin: 50px;
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+p1{
+    margin: 50px;
+    padding: 50px;
+   
+}
+navbar {
+    position: absolute;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0;
+}
+
+@media only screen and (max-width:400px) {
+    * {
+        text-align: center;
+    }
+}
